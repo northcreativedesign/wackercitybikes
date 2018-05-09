@@ -7,6 +7,11 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('sights');
+  this.route('bikes');
+  this.route('why_us');
+  this.route('our_story');
+  this.route('get_to_us');
 });
 
 export default Router;
